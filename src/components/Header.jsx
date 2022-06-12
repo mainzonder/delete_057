@@ -18,3 +18,16 @@ const Wrapper = styled.div`
     align-items: center;
     padding: 2rem 0;
 `;
+
+const Title= styled(Link).attrs({
+  to:'/'
+})`
+color:var(--color-text);
+font-size:var(--fs-sm);
+text-decoration:none;
+font-weight:var(--fw-bold)
+`
+
+const ModeSwitcher = styled.div`
+
+`
